@@ -1,0 +1,66 @@
+body {
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+header {
+  background-color: gray;
+  padding: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+#navigation {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+#navigation button {
+  border: none;
+  cursor: pointer;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  font-size: xx-large;
+  background-color: lightgray;
+}
+
+#navigation button:hover {
+  transition-duration: 0.5s;
+  color: white;
+  background-color: gray;
+}
+
+#content {
+  flex: 1;
+}
+
+#left, #right {
+  width: 400px;
+  background-color: black;
+  height: 100%;
+}
+
+#left {
+  float: left;
+}
+#right {
+  float: right;
+}
+
+#middle {
+  display: block;
+  margin: 0px 400px;
+}
+
+footer {
+  height: auto;
+  background-color: gray;
+  font-size: small;
+  padding: 10px;
+  color: white;
+}
